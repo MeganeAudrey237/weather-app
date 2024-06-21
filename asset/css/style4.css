@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none ;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+   
+      
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  main{
+    background: rgba(217, 217, 217, 0.36);
+    /* border: 2px solid black; */
+    width:40% ;
+    height: 90%;
+    padding: 2rem;
+    /* margin-top: -10rem; */
+    /* padding-top: 2rem; */
+    color: rgba(58, 60, 143, 1);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    /* box-shadow: 1px 10px rgba(14, 14, 14, 0.076); */
+    
+
+  }
+
+  
+ section{
+    display: flex;
+    justify-content: space-between;
+   
+    
+ }
+ .one .main #ici{
+    display: block;
+    padding-top: 2rem;
+    padding-right: 0.5rem;
+
+
+ }
+ .one .midle  {
+    color: rgba(58, 60, 143, 1);
+
+ }
+ .one .midle i span  {
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: normal;
+
+ }
+ .one .midle i  {
+    
+    font-size: 1.5rem;
+    /* font-weight: normal; */
+
+ }
+ .one .midle p  {
+    
+    font-size: 0.5rem;
+    padding: 1rem ;
+    word-spacing: 0.3rem;
+
+ }
+ .two{
+   justify-content: center;
+   margin-left: 5rem;
+   
+ }
+ .two .e{
+    font-size: 5rem;
+    padding-left: 0.9rem;
+    position: absolute;
+    color: rgba(81, 86, 235, 0.91);
+
+ }
+ .two .o{
+    font-size: 1rem;
+    vertical-align: top;
+    position: relative;
+    padding-left: 6rem;
+    color: rgba(81, 86, 235, 0.91);
+    
+ }
+ .two p .n{
+    font-size: 4rem;
+    position: relative;
+    z-index: 10rem;
+    color:rgb(155, 155, 221) ;
+   /* vertical-align: bottom; */
+   /* margin:  5rem; */
+ }
+.two p .cl{
+    font-size: 0.6rem;
+    color: rgba(81, 87, 235, 1);
+    padding-left: 3rem;
+    padding-bottom: 9rem;
+    /* vertical-align: top; */
+    /* margin-top: 0.5rem; */
+
+}
+.three{
+    background: rgba(233, 231, 255, 1);
+    border-radius: 5rem;
+    padding: 0.5rem 0.5rem;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 4rem;
+    
+}
+.three p{
+    font-size:0.4rem ;
+}
+.three h4{
+    font-size:0.7rem ;
+}
+.four{
+    font-size: 0.8rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    padding-top:1rem ;
+    justify-content: space-between;
+    /* line-height: 1.5rem; */
+
+   
+}
+nav div{
+    /* 
+    padding: 2rem; */
+    /* padding: 1rem 2rem; */
+    background: rgba(76, 77, 219, 0.51);
+    padding: 1rem 1.3rem;
+    border-radius: 25px;
+
+}
+nav div h5 {
+    color: white;
+    font-size: 0.9rem;
+    /* padding-top: 0.5rem; */
+
+}
+nav div i  {
+    padding: 0.5rem 0rem;
+ 
+
+}
+nav .six{
+    background: rgba(76, 77, 219, 0.78);
+
+}
+nav p{
+    color: white;
+
+}

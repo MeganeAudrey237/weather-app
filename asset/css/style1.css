@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none ;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+   
+      
+  }
+  body{
+   
+    background-image: linear-gradient(rgba(1, 61, 57, 0.85), rgba(1, 23, 1, 0.85));
+    background-repeat: no-repeat;
+    width: 98%;
+    background-size: cover;
+    min-height: 100vh;
+    /* height: 100%; */
+  }
+  .main{
+    display: flex;
+  }
+  .main .one h1{
+    color: white;
+    /* width: 10%; */
+    /* height: 240px; */
+    text-align: center;
+    padding: 15rem 0rem 5rem 4rem;
+    /* margin: 4rem 4rem 4rem 4rem; */
+    font-size: 3rem;
+    
+
+  }
+  .main .two {
+    display: flex;
+    color: white;
+    width: 70%;
+    padding-top: 10rem;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  .two-one{
+    background: linear-gradient( to left top, rgba(255, 255, 255, 0.192) 75%, rgba(255, 255, 255, 0.4)  );
+    border: 1px solid;
+    border-image-source: linear-gradient( rgb(255, 255, 255) 40%, rgb(255, 255, 255) 80% );
+    border-radius: 10px;
+    padding: 4rem;
+    margin-left:12rem ;
+    transform: rotate(-20deg);
+    /* position: absolute; */
+    /* z-index: 7; */
+
+  }
+  .two-one i{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    /* align-self: center; */
+   
+  }
+  .two-one p{
+    font-size: 4rem;
+
+    
+  }
+  .two-one p span{
+    font-size: 1rem;
+    vertical-align: top;
+    
+  }
+  .two-one h2{
+    font-size: 1rem;
+    padding-top: 2rem;
+
+  }
+  .two-two{
+    background: linear-gradient( to left top, rgba(255, 255, 255, 0.192) 75%, rgba(255, 255, 255, 0.4)  );
+    border: 1px solid;
+    border-image-source: linear-gradient( to left top ,rgba(255, 255, 255, 0.6) 0%, rgba(238, 237, 237, 0.1) );
+    padding: 4rem;
+    border-radius: 10px;
+    margin-right: 4rem;
+    transform: rotate(20deg);
+    /* position: relative; */
+    /* z-index: 2; */
+    
+  }
+  .two-two i{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    padding-right: 3rem;
+    /* align-self: center; */
+  }
+  .two-two p{
+    font-size: 4rem;
+
+    
+  }
+  .two-two p span{
+    font-size: 1rem;
+    vertical-align: top;
+    
+  }
+  .two-two h2{
+    font-size: 1rem;
+    padding-top: 2rem;
+
+  }
